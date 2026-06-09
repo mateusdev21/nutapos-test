@@ -77,7 +77,7 @@ const isNewDiscount = (_item: Discount, index: number) => {
         }}
       </template>
 
-      <template #item.action="{ item }">
+      <template #item.action>
         <v-btn icon variant="text" size="small">
           <v-icon color="grey">mdi-pencil-outline</v-icon>
         </v-btn>
